@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Greetings">
+    tools:context=".GreetingsActivity">
 
     <View
         android:id="@+id/view2"
@@ -73,7 +73,7 @@
         android:layout_width="300dp"
         android:layout_height="51dp"
         android:layout_marginBottom="60dp"
-        android:background="@drawable/box_bg"
+        android:background="@drawable/box_bg_btn"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
