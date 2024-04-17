@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "9782913757",
+    "firebase_url": "https://putworld-62c02-default-rtdb.firebaseio.com",
+    "project_id": "putworld-62c02",
+    "storage_bucket": "putworld-62c02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9782913757:android:44e3ed8c37f20c92a9c934",
+        "android_client_info": {
+          "package_name": "com.example.putworld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjjzzgwZfNMalqww9aiAqtmcFSgrVetb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
