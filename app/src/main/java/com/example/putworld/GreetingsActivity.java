@@ -20,7 +20,7 @@ public class GreetingsActivity extends AppCompatActivity {
         // После отображения активности приветствия, устанавливаем isFirstRun в false
         SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putBoolean("isFirstRun", true);//поменять true на false
+        editor.putBoolean("isFirstRun", false);//поменять true на false
         editor.apply();
 
 
@@ -29,6 +29,7 @@ public class GreetingsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(GreetingsActivity.this,LogInActivity.class));
+                finish();
             }
         });
 

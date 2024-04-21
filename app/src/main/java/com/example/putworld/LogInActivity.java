@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCanceledListener;
@@ -16,9 +18,12 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import org.w3c.dom.Text;
+
 public class LogInActivity extends AppCompatActivity {
 
     private EditText LogIn_email,LogIn_password;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +74,16 @@ public class LogInActivity extends AppCompatActivity {
 
             }
         });
+        // инициализация текста как переход на экран SignUp, если нету аккаунта
+        TextView text_SignUp = (TextView)findViewById(R.id.text_SignUp);
+        text_SignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LogInActivity.this,SignUpActivity.class));
+                finish();
+            }
+        });
+
     }
     public void goNext(){
         startActivity(new Intent(LogInActivity.this,HomeActivity.class));

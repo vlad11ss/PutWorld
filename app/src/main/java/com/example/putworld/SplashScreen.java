@@ -25,7 +25,7 @@ public class SplashScreen extends AppCompatActivity {
                     startActivity(new Intent(SplashScreen.this, GreetingsActivity.class));
                 } else {
                     // Если приложение запускается не впервые, переходим на главный экран
-                    startActivity(new Intent(SplashScreen.this,LogInActivity.class));
+                    startActivity(new Intent(SplashScreen.this,HomeActivity.class));
                 }
                 finish(); // Закрываем текущую активность
             }

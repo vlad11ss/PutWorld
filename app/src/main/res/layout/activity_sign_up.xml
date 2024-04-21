@@ -64,7 +64,7 @@
 
         <LinearLayout
             android:id="@+id/SignUp_btn"
-            android:layout_width="200dp"
+            android:layout_width="260dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="70dp"
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:text="Войти"
+                android:text="зарегистрироваться"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="24dp"
@@ -95,7 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="нет аккаунта?"
+                android:text="уже есть аккаунт?"
                 android:textAlignment="textEnd"
                 android:textColor="#176FF2"
                 android:textSize="16sp"
@@ -106,7 +106,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="зарегистрируйтесь"
+                android:text="войти"
                 android:textColor="#0048B4"
                 android:textSize="16sp"
                 android:textStyle="bold" />
